@@ -2,10 +2,12 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-header{
+/* styling for header */
+ header{
     position: relative;
     top: 0;
     right: 0;
@@ -20,6 +22,7 @@ header{
     height: 100vh;
 }
 
+/* Styling for nav */
 .nav-bar{
     position: absolute;
     top: 20px;
@@ -64,10 +67,10 @@ nav ul li a{
     color: #fff;
     margin-left: 10px;
 }
- 
+ /* Styling for hero section */
 .hero{
-    height: 150px;
-    width: 350px;
+    height: 200px;
+    width: 400px;
     background-color: #fff;
     opacity: 70%;
     display: flex;
@@ -81,18 +84,33 @@ nav ul li a{
     text-align: center;
 }
 
-.hero-cta{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+.hero-content p{
+    font-family: 'Poppins' sans-serif;
+    font-weight: 500;
 }
 
-@media screen and (max-widht:600px) {
+.hero-cta{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    
+}
+
+.hero a{
+    font-family: 'Dosis' sans-serif;
+    color: #000;
+}
+
+.hero a:hover{
+    border: 1px solid black; /* put border around call-to-action when hovered */
+}
+
+@media only screen and (max-width: 768px) {
     nav ul{
         display: none;
     }
 
-    .hero{
-        background-color: blue;
+    .nav-icons i{
+        margin-left: 0;
     }
 }
 
