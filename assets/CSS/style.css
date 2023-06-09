@@ -125,7 +125,7 @@ nav ul li a{
 }
 
 .furniture{
-    background: url('/assets/images/furn.jpg');
+    background: url('../images/furn.jpg');
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ nav ul li a{
 
 
 .basket{
-    background: url('/assets/images/bask.jpg');
+    background: url('../images/bask.jpg');
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -253,21 +253,21 @@ h2{
   }
 
   .news-1{
-    background-image: url('/assets/images/b1.jpg');
+    background-image: url('../images/b1.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .news-2{
-    background-image: url('/assets/images/b2.jpg');
+    background-image: url('../images/b2.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .news-3{
-    background-image: url('/assets/images/b3.jpg');
+    background-image: url('../images/b3.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
